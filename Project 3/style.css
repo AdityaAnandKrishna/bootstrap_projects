@@ -99,6 +99,7 @@ header{
 .underline{
   width: 150px;
   border: 3px solid #eee;
+  background: #eee;
   margin: auto;
 }
 
@@ -160,6 +161,7 @@ header{
 .underline-dark{
   width: 150px;
   border: 3px solid #888;
+  background: #888;
   margin: auto;
 }
 
@@ -173,3 +175,9 @@ header{
   color: #70aed2;
 }
 /* end of gallery */
+
+/* customers */
+.customers{
+  background: #151f20;
+}
+/* end of customers */
