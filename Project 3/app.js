@@ -37,5 +37,17 @@ $(document).ready(function() {
     $(this).addClass('active-item').siblings().removeClass('active-item');
   });
 
+  $(window).scroll(function() {
+    let position = $(this).scrollTop();
+     if(position >= 5100) {
+       $('.card-1').addClass('moveFromLeft');
+       $('.card-2').addClass('moveFromBottom');
+       $('.card-3').addClass('moveFromRight');
+     } else {
+       $('.card-1').reamoveClass('moveFromLeft');
+       $('.card-2').reamoveClass('moveFromBottom');
+       $('.card-3').reamoveClass('moveFromRight');
+     }
+  }); 
 }); 
 
